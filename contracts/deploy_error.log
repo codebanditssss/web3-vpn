@@ -1,0 +1,5 @@
+
+🚀 Starting deployment (Generic Edition)...
+TypeError: Cannot read properties of undefined (reading 'deployContract')
+    at main (C:\Users\Khushi\newweb3project\contracts\scripts\deploy.ts:8:33)
+    at <anonymous> (C:\Users\Khushi\newweb3project\contracts\scripts\deploy.ts:18:1)

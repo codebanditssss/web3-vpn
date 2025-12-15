@@ -16,6 +16,7 @@ async function main() {
 }
 
 main().catch((error) => {
-    console.error(error);
+    console.error("DEPLOYMENT FAILED:");
+    console.error(error.message || error);
     process.exitCode = 1;
 });

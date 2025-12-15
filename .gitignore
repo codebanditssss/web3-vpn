@@ -26,3 +26,12 @@ yarn-error.log*
 
 # Plan
 IMPLEMENTATION_PLAN.md
+
+# Build Artifacts
+client/dist/
+client/build/
+client/node_modules/
+*.exe
+*.zip
+*.7z
+*.log

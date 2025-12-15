@@ -4,12 +4,22 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "dist": "electron-builder",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": "Decentralized Pay-As-You-Go VPN",
+  "build": {
+    "forceCodeSigning": false,
+    "appId": "com.x402.vpn",
+    "asar": true,
+    "win": {
+      "target": "nsis",
+      "verifyUpdateCodeSignature": false
+    }
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "electron": "^39.2.7",
     "electron-builder": "^26.0.12"
