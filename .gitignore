@@ -1,0 +1,28 @@
+# Hardhat
+contracts/artifacts/
+contracts/cache/
+contracts/node_modules/
+contracts/typechain-types/
+contracts/coverage/
+contracts/coverage.json
+contracts/hardhat.config.js.backup
+
+# Node
+node_modules/
+.npm/
+.yarn/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Plan
+IMPLEMENTATION_PLAN.md
